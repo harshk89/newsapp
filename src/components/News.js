@@ -29,7 +29,7 @@ export class News extends Component {
         articles: this.articles,
         loading: false,
         page: 1,
-        totalResults: 38
+        totalResults: 0
     }
     document.title = `${this.capitalizeFirstLetter(this.props.category)} - NewsApp`
   }
