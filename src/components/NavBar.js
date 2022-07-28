@@ -12,7 +12,7 @@ const NavBar = ()=> {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item"><Link className="nav-link" aria-current="page" to="/">Homepage</Link> </li>
+                    <li className="nav-item"><Link className="nav-link" aria-current="page" to="/">Home</Link> </li>
                     <li className="nav-item"><Link className="nav-link" aria-current="page" to="/business">Business</Link></li>
                     <li className="nav-item"><Link className="nav-link" aria-current="page" to="/entertainment">Entertainment</Link></li>
                     <li className="nav-item"><Link className="nav-link" aria-current="page" to="/health">Health</Link></li>
