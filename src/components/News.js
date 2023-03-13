@@ -43,8 +43,8 @@ const News = (props)=> {
 
   return (
     <>
-      {console.log(articles.length)}
-      {console.log(totalResults)}
+      {/* {console.log(articles.length)} */}
+      {/* {console.log(totalResults)} */}
       <h2 style={{margin: "80px auto 20px auto", textAlign: "center"}}>Newsapp - Top headlines</h2>
       <InfiniteScroll
         dataLength={articles.length} //This is important field to render the next data

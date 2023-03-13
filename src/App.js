@@ -11,7 +11,7 @@ import {
 
 export default function App() {
 
-  const pageSize= 6;
+  const pageSize= 10;
   const [progress, setProgress] = useState(0);
 
   return (
